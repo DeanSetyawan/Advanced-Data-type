@@ -17,7 +17,7 @@ Python's dictionaries are kind of hash table type. They work like associative ar
 set is an abstract data type that can store unique values, without any particular order. set usually use for matematic use or if we dont want duplicated value
 ### Type operation
 1. slicing
-slicing is a way to take a part from group of data. slicing only possible in list, dictionary, and tupple with few rules
+is a way to take a part from group of data. slicing only possible in list, dictionary, and tupple with few rules
 - only one index inside square bracket mean only call one data that place in that index
 - to call more than one data use colon with detail (start data you want to take : end data you want to take +1 : step of the returned items)
 - Blank in treat as default if blank in start data mean want to take data from the beginning , if blank in end data mean want to take data till the end of the group data and if blank in step mean that every first item will be returned in the result
