@@ -15,7 +15,14 @@ set is an abstract data type that can store unique values, without any particula
 1. slicing
 slicing is a way to take a part from group of data. slicing only possible in list, dictionary, and tupple with few rules
 - only one index inside square bracket mean only call one data that place in that index
-to call more than one data use colon with detail (start data you want to take : end data you want to take +1 : step of the returned items)
+- to call more than one data use colon with detail (start data you want to take : end data you want to take +1 : step of the returned items)
 - Blank in treat as default if blank in start data mean want to take data from the beginning , if blank in end data mean want to take data till the end of the group data and if blank in step mean that every first item will be returned in the result
 2. input data to array
-3. change a element inside array 
+- append function will add one data to group data in the end of group data with format inside parentheses (data you want to input)
+- extend function will add another list data to list in the end of group data with format inside parentheses ([list you want to input])
+- insert function will add one data to specific index with format inside parentheses (index, data you want input
+3. change a element inside array
+- del function can remove elements by index from the list with the del statement.
+- Remove function can delete the first item from the list of values whose value is equal to the specified value by remove.
+- Pop is a function that removes the item at the specified index from the list. pop will remove the last value if it doesn't specify a value.
+- x[index]= data we want to replace, replace element with slice data equal to new data to replace that slice data with new data
